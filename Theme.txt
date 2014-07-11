@@ -1,0 +1,8 @@
+Name: TryOrchard Theme
+Author: Lombiq Ltd.
+Website: http://lombiq.com/
+Description: Theme for tryorchard.net.
+Version: 1.0
+BaseTheme: Lombiq.PrettyGoodBootstrapBaseTheme
+# todo: provide tags
+# Tags: Classic, Serif
