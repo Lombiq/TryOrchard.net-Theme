@@ -1,0 +1,17 @@
+﻿li {
+  padding-bottom: 10px;
+}
+h1 a {
+  font-family: "Palatino Linotype", "Palatino", "Palladio", "URW Palladio L", "Book Antiqua", "Baskerville", "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", "Garamond", "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", "Georgia", "serif";
+}
+.zone-header #branding a {
+  background-image: url(orchard-logo.png);
+  background-repeat: no-repeat;
+  background-size: 55px;
+  padding-left: 60px;
+}
+.zone-header #branding a:hover,
+.zone-header #branding a:active,
+.zone-header #branding a:focus {
+  text-decoration: none;
+}
