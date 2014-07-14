@@ -69,8 +69,8 @@
   <ItemGroup>
     <Content Include="Images\orchard-logo.png" />
     <Content Include="Styles\orchard-logo.png" />
-    <Content Include="Styles\tryorchard.css">
-      <DependentUpon>tryorchard.less</DependentUpon>
+    <Content Include="Styles\site.css">
+      <DependentUpon>site.less</DependentUpon>
     </Content>
     <Content Include="Web.config" />
     <Content Include="Scripts\Web.config" />
@@ -91,16 +91,13 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Layout.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Styles\tryorchard.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\User.cshtml" />
+    <Content Include="Styles\site.less" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".hgignore" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Resources.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
