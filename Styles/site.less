@@ -1,0 +1,53 @@
+﻿/* Site
+   The root stylesheet, importing everything. The single stylesheet that's included and that imports all other styles.
+***************************************************************/
+
+
+// Note that the idea is that every file imports everything it needs, even if it was already import somewhere else (everything will be added
+// only once to the stylesheet in the end).
+@import "reset";
+@import "structure";
+@import "general";
+@import "navigation";
+@import "breadcrumbs";
+@import "pagination";
+@import "misc";
+@import "media";
+
+
+// From the inherited theme you can either completely override this stylesheet (by having a style.less/style.css there) or you can extend
+// it by having a site.less in your theme and importing this file at the top.
+
+li {
+    padding-bottom: 10px;
+}
+
+h1 a {
+    font-family: "Palatino Linotype", "Palatino", "Palladio", "URW Palladio L", "Book Antiqua", "Baskerville", "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", "Garamond", "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", "Georgia", "serif";
+}
+
+.zone-header #branding a {
+    background-image: url(../Images/orchard-logo.png);
+    background-size: 70px;
+    padding-left: 80px;
+    font-size: 50px;
+    background-repeat:no-repeat;
+}
+
+.zone-header #branding a:hover,
+.zone-header #branding a:active,
+.zone-header #branding a:focus {
+    text-decoration: none;
+}
+
+.user-actions {
+    display: none;
+}
+
+#layout-wrapper {
+    max-width: 1200px;
+}
+
+.zone-content {
+    margin-top: -50px;
+}
