@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{CBF505D7-3958-4563-BB6C-B36BDE0D17D4}</ProjectGuid>
+    <ProjectGuid>{03825249-F893-4A28-A027-55BD2D495DCD}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -69,29 +69,18 @@
   <ItemGroup>
     <Content Include="Images\favicon.ico" />
     <Content Include="Images\orchard-logo.png" />
-    <Content Include="Styles\breadcrumbs.css" />
-    <Content Include="Styles\common.css" />
-    <Content Include="Styles\forms.css" />
-    <Content Include="Styles\general.css" />
-    <Content Include="Styles\media.css" />
-    <Content Include="Styles\misc.css" />
-    <Content Include="Styles\navigation.css" />
-    <Content Include="Styles\pagination.css" />
-    <Content Include="Styles\reset.css" />
     <Content Include="Styles\site.css">
       <DependentUpon>site.less</DependentUpon>
     </Content>
-    <Content Include="Styles\structure.css" />
-    <Content Include="Styles\type.css" />
-    <Content Include="Styles\variables.css" />
-    <Content Include="ThemeZonePreview.png" />
     <Content Include="Web.config" />
     <Content Include="Scripts\Web.config" />
     <Content Include="Styles\Web.config" />
     <Content Include="Content\Web.config" />
     <Content Include="Theme.txt" />
     <Content Include="Theme.png" />
-    <Content Include="Placement.info" />
+    <Content Include="Placement.info">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Orchard\Orchard.Framework.csproj">
@@ -104,38 +93,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Styles\site.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include=".hgignore" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Views\Resources.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Styles\breadcrumbs.less" />
-    <Content Include="Styles\common.less" />
-    <Content Include="Styles\forms.less" />
-    <Content Include="Styles\general.less" />
-    <Content Include="Styles\media.less" />
-    <Content Include="Styles\misc.less" />
-    <Content Include="Styles\navigation.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Styles\pagination.less" />
-    <Content Include="Styles\reset.less" />
-    <Content Include="Styles\structure.less" />
-    <Content Include="Styles\type.less" />
-    <Content Include="Styles\variables.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\AdditionalInsertions.cshtml" />
-    <Content Include="Views\AdditionalResources.cshtml" />
-    <Content Include="Views\Analytics.cshtml" />
-    <Content Include="Views\Branding.cshtml" />
-    <Content Include="Views\Document.cshtml" />
-    <Content Include="Views\Insertions.cshtml" />
-    <Content Include="Views\Layout.cshtml" />
+    <Content Include="Styles\site.less" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
