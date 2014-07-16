@@ -1,22 +1,16 @@
-﻿/* Site
-   The root stylesheet, importing everything. The single stylesheet that's included and that imports all other styles.
-***************************************************************/
-
-
-// Note that the idea is that every file imports everything it needs, even if it was already import somewhere else (everything will be added
-// only once to the stylesheet in the end).
-@import "reset";
-@import "structure";
-@import "general";
-@import "navigation";
-@import "breadcrumbs";
-@import "pagination";
-@import "misc";
-@import "media";
-
-
-// From the inherited theme you can either completely override this stylesheet (by having a style.less/style.css there) or you can extend
-// it by having a site.less in your theme and importing this file at the top.
+﻿@import "../../Lombiq.PrettyGoodBootstrapBaseTheme/Styles/reset";
+@import "../../Lombiq.PrettyGoodBootstrapBaseTheme/Content/Bootstrap/less/scaffolding";
+@import "../../Lombiq.PrettyGoodBootstrapBaseTheme/Content/Bootstrap/less/code";
+@import "../../Lombiq.PrettyGoodBootstrapBaseTheme/Content/Bootstrap/less/tables";
+@import "../../Lombiq.PrettyGoodBootstrapBaseTheme/Styles/variables";
+@import "../../Lombiq.PrettyGoodBootstrapBaseTheme/Styles/type";
+@import "../../Lombiq.PrettyGoodBootstrapBaseTheme/Styles/general";
+@import "../../Lombiq.PrettyGoodBootstrapBaseTheme/Styles/structure";
+@import "../../Lombiq.PrettyGoodBootstrapBaseTheme/Styles/navigation";
+@import "../../Lombiq.PrettyGoodBootstrapBaseTheme/Styles/pagination";
+@import "../../Lombiq.PrettyGoodBootstrapBaseTheme/Styles/forms";
+@import "../../Lombiq.PrettyGoodBootstrapBaseTheme/Styles/misc";
+@import "../../Lombiq.PrettyGoodBootstrapBaseTheme/Styles/media";
 
 li {
     padding-bottom: 10px;
@@ -31,7 +25,8 @@ h1 a {
     background-size: 70px;
     padding-left: 80px;
     font-size: 50px;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
+    color: darkolivegreen;
 }
 
 .zone-header #branding a:hover,
