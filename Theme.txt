@@ -1,6 +1,6 @@
 Name: TryOrchard Theme
-Author: Lombiq Ltd.
-Website: http://lombiq.com/
+Author: Lombiq
+Website: http://tryorchard.net
 Description: Theme for tryorchard.net.
 Version: 1.0
 BaseTheme: Lombiq.PrettyGoodBootstrapBaseTheme
