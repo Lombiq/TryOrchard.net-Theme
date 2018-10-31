@@ -818,7 +818,7 @@ small,
 mark,
 .mark {
   background-color: #fcf8e3;
-  padding: .2em;
+  padding: 0.2em;
 }
 .text-left {
   text-align: left;
@@ -3353,15 +3353,15 @@ button .badge,
   background-color: #333;
 }
 input[type="checkbox"] {
-  margin: .2em 0 1.2em 0;
+  margin: 0.2em 0 1.2em 0;
 }
 label.forcheckbox {
-  margin: 0 0 0 .4em;
+  margin: 0 0 0 0.4em;
   display: inline;
 }
 fieldset,
 .zone-content fieldset {
-  margin: 0 0 .923em 0;
+  margin: 0 0 0.923em 0;
 }
 fieldset ol,
 .zone-content fieldset ol {
@@ -3371,7 +3371,7 @@ fieldset ol,
 }
 fieldset ol li,
 .zone-content fieldset ol li {
-  margin: 0 0 .4615em 0;
+  margin: 0 0 0.4615em 0;
 }
 .alert {
   padding: 15px;
@@ -3453,13 +3453,13 @@ fieldset ol li,
 ***************************************************************/
 /* Metadata */
 .metadata {
-  margin: 0 0 .9230em 0;
+  margin: 0 0 0.923em 0;
   color: #777777;
   font-size: 0.846em;
 }
 .metadata .published {
   display: inline;
-  margin: 0 .4615em 0 0;
+  margin: 0 0.4615em 0 0;
 }
 .metadata .comment-count {
   display: inline;
@@ -3579,7 +3579,7 @@ ol {
   list-style: none;
 }
 .comments li {
-  margin: .9230em 0 0 0;
+  margin: 0.923em 0 0 0;
   padding: 1.25%;
   border: 1px solid #777777;
 }
@@ -3636,12 +3636,15 @@ h1 a {
   font-family: "Palatino Linotype", "Palatino", "Palladio", "URW Palladio L", "Book Antiqua", "Baskerville", "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", "Garamond", "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", "Georgia", "serif";
 }
 .zone-header #branding a {
-  background-image: url(../Images/orchard-logo.png);
-  background-size: 70px;
+  height: 120px;
+  background-image: url(../Images/try-orchard-logo.png);
+  background-size: 500px;
+  padding-top: 50px;
   padding-left: 80px;
   font-size: 50px;
+  display: block;
   background-repeat: no-repeat;
-  color: #696f57;
+  color: transparent;
 }
 .zone-header #branding a:hover,
 .zone-header #branding a:active,
