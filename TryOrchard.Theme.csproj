@@ -91,7 +91,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\favicon.ico" />
     <Content Include="Images\Favicons\android-icon-144x144.png" />
     <Content Include="Images\Favicons\android-icon-192x192.png" />
     <Content Include="Images\Favicons\android-icon-36x36.png" />
@@ -151,6 +150,8 @@
     </None>
     <Content Include="Images\Favicons\manifest.json" />
     <None Include="Licence.md" />
+    <Content Include="Views\AdditionalResources.cshtml" />
+    <Content Include="Views\Favicon.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
