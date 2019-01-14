@@ -14,7 +14,8 @@
     <AssemblyName>TryOrchard.Theme</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
-    <FileUpgradeFlags></FileUpgradeFlags>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
     <OldToolsVersion>4.0</OldToolsVersion>
     <UpgradeBackupLocation />
     <TargetFrameworkProfile />
@@ -24,6 +25,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -91,6 +93,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Fonts\montserrat-v12-latin-100.svg" />
+    <Content Include="Fonts\montserrat-v12-latin-300.svg" />
+    <Content Include="Fonts\montserrat-v12-latin-700.svg" />
+    <Content Include="Fonts\montserrat-v12-latin-regular.svg" />
+    <Content Include="Images\favicon.ico" />
     <Content Include="Images\Favicons\android-icon-144x144.png" />
     <Content Include="Images\Favicons\android-icon-192x192.png" />
     <Content Include="Images\Favicons\android-icon-36x36.png" />
@@ -115,13 +122,15 @@
     <Content Include="Images\Favicons\ms-icon-70x70.png" />
     <Content Include="Images\orchard-logo.png" />
     <Content Include="Images\try-orchard-logo-tagline.png" />
+    <Content Include="Images\try-orchard-logo.png" />
+    <Content Include="Styles\fonts.css">
+      <DependentUpon>fonts.scss</DependentUpon>
+    </Content>
     <Content Include="Styles\site.css">
-      <DependentUpon>site.less</DependentUpon>
+      <DependentUpon>site.scss</DependentUpon>
     </Content>
     <Content Include="Web.config" />
-    <Content Include="Scripts\Web.config" />
     <Content Include="Styles\Web.config" />
-    <Content Include="Content\Web.config" />
     <Content Include="Theme.txt" />
     <Content Include="Theme.png" />
     <Content Include="Placement.info">
@@ -141,17 +150,37 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Styles\site.less" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
     <Content Include="Images\Favicons\manifest.json" />
+    <Content Include="Fonts\montserrat-v12-latin-100.eot" />
+    <Content Include="Fonts\montserrat-v12-latin-100.ttf" />
+    <Content Include="Fonts\montserrat-v12-latin-100.woff" />
+    <Content Include="Fonts\montserrat-v12-latin-100.woff2" />
+    <Content Include="Fonts\montserrat-v12-latin-300.eot" />
+    <Content Include="Fonts\montserrat-v12-latin-300.ttf" />
+    <Content Include="Fonts\montserrat-v12-latin-300.woff" />
+    <Content Include="Fonts\montserrat-v12-latin-300.woff2" />
+    <Content Include="Fonts\montserrat-v12-latin-700.eot" />
+    <Content Include="Fonts\montserrat-v12-latin-700.ttf" />
+    <Content Include="Fonts\montserrat-v12-latin-700.woff" />
+    <Content Include="Fonts\montserrat-v12-latin-700.woff2" />
+    <Content Include="Fonts\montserrat-v12-latin-regular.eot" />
+    <Content Include="Fonts\montserrat-v12-latin-regular.ttf" />
+    <Content Include="Fonts\montserrat-v12-latin-regular.woff" />
+    <Content Include="Fonts\montserrat-v12-latin-regular.woff2" />
+    <Content Include="Fonts\Web.config" />
+    <Content Include="Images\Web.config" />
     <None Include="Licence.md" />
-    <Content Include="Views\AdditionalResources.cshtml" />
-    <Content Include="Views\Favicon.cshtml" />
+    <Content Include="Styles\fonts.scss" />
+    <Content Include="Styles\_general.scss" />
+    <Content Include="Styles\_home-page.scss" />
+    <Content Include="Styles\_mixins.scss" />
+    <Content Include="Styles\_normalize.scss" />
+    <Content Include="Styles\_variables.scss" />
+    <Content Include="Styles\site.scss" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -187,7 +216,8 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>45979</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl></IISUrl>
+          <IISUrl>
+          </IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>True</UseCustomServer>
           <CustomServerUrl>http://orchard.codeplex.com</CustomServerUrl>
