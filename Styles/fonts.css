@@ -1,0 +1,43 @@
+﻿/* montserrat-100 - latin */
+@font-face {
+  font-family: MontserratThin;
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+  src: url("/Themes/TryOrchard.Theme/Fonts/montserrat-v12-latin-100.eot");
+  /* IE9 Compat Modes */
+  src: local("Montserrat Thin"), local("Montserrat-Thin"), url("/Themes/TryOrchard.Theme/Fonts/montserrat-v12-latin-100.eot?#iefix") format("embedded-opentype"), url("/Themes/TryOrchard.Theme/Fonts/montserrat-v12-latin-100.woff2") format("woff2"), url("/Themes/TryOrchard.Theme/Fonts/montserrat-v12-latin-100.woff") format("woff"), url("/Themes/TryOrchard.Theme/Fonts/montserrat-v12-latin-100.ttf") format("truetype"), url("/Themes/TryOrchard.Theme/Fonts/montserrat-v12-latin-100.svg#Montserrat") format("svg");
+  /* Legacy iOS */ }
+
+/* montserrat-300 - latin */
+@font-face {
+  font-family: MontserratLight;
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("/Themes/TryOrchard.Theme/Fonts/montserrat-v12-latin-300.eot");
+  /* IE9 Compat Modes */
+  src: local("Montserrat Light"), local("Montserrat-Light"), url("/Themes/TryOrchard.Theme/Fonts/montserrat-v12-latin-300.eot?#iefix") format("embedded-opentype"), url("/Themes/TryOrchard.Theme/Fonts/montserrat-v12-latin-300.woff2") format("woff2"), url("/Themes/TryOrchard.Theme/Fonts/montserrat-v12-latin-300.woff") format("woff"), url("/Themes/TryOrchard.Theme/Fonts/montserrat-v12-latin-300.ttf") format("truetype"), url("/Themes/TryOrchard.Theme/Fonts/montserrat-v12-latin-300.svg#Montserrat") format("svg");
+  /* Legacy iOS */ }
+
+/* montserrat-regular - latin */
+@font-face {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("/Themes/TryOrchard.Theme/Fonts/montserrat-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Montserrat Regular"), local("Montserrat-Regular"), url("/Themes/TryOrchard.Theme/Fonts/montserrat-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("/Themes/TryOrchard.Theme/Fonts/montserrat-v12-latin-regular.woff2") format("woff2"), url("/Themes/TryOrchard.Theme/Fonts/montserrat-v12-latin-regular.woff") format("woff"), url("/Themes/TryOrchard.Theme/Fonts/montserrat-v12-latin-regular.ttf") format("truetype"), url("/Themes/TryOrchard.Theme/Fonts/montserrat-v12-latin-regular.svg#Montserrat") format("svg");
+  /* Legacy iOS */ }
+
+/* montserrat-700 - latin */
+@font-face {
+  font-family: MontserratBold;
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("/Themes/TryOrchard.Theme/Fonts/montserrat-v12-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local("Montserrat Bold"), local("Montserrat-Bold"), url("/Themes/TryOrchard.Theme/Fonts/montserrat-v12-latin-700.eot?#iefix") format("embedded-opentype"), url("/Themes/TryOrchard.Theme/Fonts/montserrat-v12-latin-700.woff2") format("woff2"), url("/Themes/TryOrchard.Theme/Fonts/montserrat-v12-latin-700.woff") format("woff"), url("/Themes/TryOrchard.Theme/Fonts/montserrat-v12-latin-700.ttf") format("truetype"), url("/Themes/TryOrchard.Theme/Fonts/montserrat-v12-latin-700.svg#Montserrat") format("svg");
+  /* Legacy iOS */ }

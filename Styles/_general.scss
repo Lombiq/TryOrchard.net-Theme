@@ -1,0 +1,99 @@
+﻿@import "variables";
+@import "mixins";
+
+/**
+ * Make all elements from the DOM inherit from the parent box-sizing
+ * Since `*` has a specificity of 0, it does not override the `html` value
+ * making all elements inheriting from the root box-sizing value
+ * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ */
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: $background-color-primary;
+    color: $text-color-default;
+    font-family: $text-font-families;
+    font-size: $text-size-base-desktop;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+#layout-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
+    width: unset;
+
+    @include desktop {
+        width: $desktop-width;
+    }
+}
+
+
+.zone-header #branding {
+    @include full-width($background-color-secondary);
+    width: 100%;
+    text-align: center;
+
+    a {
+        height: 80px;
+        width: 326px;
+        background-image: url(../Images/try-orchard-logo.png);
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-size: contain;
+        color: transparent;
+        margin: 30px 0;
+
+        @include desktop {
+            display: block;
+        }
+    }
+}
+
+.page > header > h1 {
+    @include full-width($background-color-page-title, $text-margin-mobile-width);
+    font-size: 1.2em;
+    color: $text-color-for-dark-bg;
+    line-height: 2.3em;
+    text-align: center;
+
+    @include desktop {
+        text-align: left;
+    }
+}
+
+
+#layout-footer {
+    padding: 0 $text-margin-mobile-width 20px $text-margin-mobile-width;
+    padding: {
+        top: 0;
+        right: $text-margin-mobile-width;
+        bottom: 20px;
+        left: $text-margin-mobile-width;
+    }
+
+    @include desktop {
+        padding: 0;
+    }
+}
+
+.user-display {
+    display: none;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $text-font-family-heading;
+}
+
+a {
+    color: $text-color-link;
+}

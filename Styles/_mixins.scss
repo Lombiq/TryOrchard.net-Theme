@@ -1,0 +1,18 @@
+﻿@import "variables";
+
+@mixin desktop {
+    @media (min-width: #{$desktop-width}) {
+        @content;
+    }
+}
+
+@mixin full-width($background-color: $background-color-primary, $horizontal-padding: 0) {
+    padding: 1px $horizontal-padding;
+    margin: 0;
+    background: $background-color;
+
+    @include desktop {
+        margin: 0 -9999rem;
+        padding: 0.25rem 9999rem;
+    }
+}

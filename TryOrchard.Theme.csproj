@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -91,8 +91,30 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\favicon.ico" />
+    <Content Include="Images\Favicons\android-icon-144x144.png" />
+    <Content Include="Images\Favicons\android-icon-192x192.png" />
+    <Content Include="Images\Favicons\android-icon-36x36.png" />
+    <Content Include="Images\Favicons\android-icon-48x48.png" />
+    <Content Include="Images\Favicons\android-icon-72x72.png" />
+    <Content Include="Images\Favicons\android-icon-96x96.png" />
+    <Content Include="Images\Favicons\apple-icon-114x114.png" />
+    <Content Include="Images\Favicons\apple-icon-120x120.png" />
+    <Content Include="Images\Favicons\apple-icon-144x144.png" />
+    <Content Include="Images\Favicons\apple-icon-152x152.png" />
+    <Content Include="Images\Favicons\apple-icon-180x180.png" />
+    <Content Include="Images\Favicons\apple-icon-57x57.png" />
+    <Content Include="Images\Favicons\apple-icon-60x60.png" />
+    <Content Include="Images\Favicons\apple-icon-72x72.png" />
+    <Content Include="Images\Favicons\apple-icon-76x76.png" />
+    <Content Include="Images\Favicons\apple-icon-precomposed.png" />
+    <Content Include="Images\Favicons\apple-icon.png" />
+    <Content Include="Images\Favicons\favicon.ico" />
+    <Content Include="Images\Favicons\ms-icon-144x144.png" />
+    <Content Include="Images\Favicons\ms-icon-150x150.png" />
+    <Content Include="Images\Favicons\ms-icon-310x310.png" />
+    <Content Include="Images\Favicons\ms-icon-70x70.png" />
     <Content Include="Images\orchard-logo.png" />
+    <Content Include="Images\try-orchard-logo-tagline.png" />
     <Content Include="Styles\site.css">
       <DependentUpon>site.less</DependentUpon>
     </Content>
@@ -126,7 +148,10 @@
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
+    <Content Include="Images\Favicons\manifest.json" />
     <None Include="Licence.md" />
+    <Content Include="Views\AdditionalResources.cshtml" />
+    <Content Include="Views\Favicon.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
