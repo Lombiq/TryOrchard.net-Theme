@@ -1,5 +1,4 @@
-﻿@import url(fonts.css);
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+﻿/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -278,7 +277,7 @@ a {
       margin: 0 -9999rem;
       padding: 0.25rem 9999rem; } }
   .freshestDemoSites__title {
-    margin-top: 160px;
+    margin-top: 40px;
     font-size: 3.4em; }
   .freshestDemoSites__text {
     font-size: 1.4em; }
