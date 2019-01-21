@@ -31,6 +31,7 @@
             border-radius: 18px;
             background-color: white;
             letter-spacing: 2px;
+            font-family: $text-font-family-button-freshest-demo-sites;
 
             text: {
                 transform: uppercase;
@@ -58,7 +59,7 @@
 
     &List {
         list-style: none;
-        padding: 60px 0;
+        padding: 45px 0;
         margin: 0;
 
         li {
@@ -71,10 +72,18 @@
                 padding: 6px 14px;
                 border-radius: 50%;
                 background-color: white;
-                text-align: center;
                 border: 1px solid $border-color-other-demo-sites;
-                text-decoration: none;
-                font-size: 1.8em;
+
+                text: {
+                    align: center;
+                    decoration: none;
+                }
+
+                font: {
+                    size: 1.8em;
+                    family: $text-font-family-button-other-demo-sites;
+                }
+
                 color: $text-color-default;
 
                 &:hover, &:focus {
@@ -86,6 +95,7 @@
 }
 
 .widget-introduction {
+    margin-top: 45px;
     padding: 0 $text-margin-mobile-width;
 
     @include desktop {

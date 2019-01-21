@@ -291,6 +291,7 @@ a {
       border-radius: 18px;
       background-color: white;
       letter-spacing: 2px;
+      font-family: MontserratBold, sans-serif;
       text-transform: uppercase;
       text-align: center;
       text-decoration: none; }
@@ -311,7 +312,7 @@ a {
     font-size: 1.3em; }
   .otherDemoSitesList {
     list-style: none;
-    padding: 60px 0;
+    padding: 45px 0;
     margin: 0; }
     .otherDemoSitesList li {
       display: inline-block;
@@ -322,15 +323,17 @@ a {
         padding: 6px 14px;
         border-radius: 50%;
         background-color: white;
-        text-align: center;
         border: 1px solid #00A7D1;
+        text-align: center;
         text-decoration: none;
         font-size: 1.8em;
+        font-family: MontserratThin, sans-serif;
         color: #575756; }
         .otherDemoSitesList li a:hover, .otherDemoSitesList li a:focus {
           background-color: #94E5F7; }
 
 .widget-introduction {
+  margin-top: 45px;
   padding: 0 7%; }
   @media (min-width: 1200px) {
     .widget-introduction {
