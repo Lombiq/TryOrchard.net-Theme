@@ -180,8 +180,7 @@
     <Content Include="Styles\_normalize.scss" />
     <Content Include="Styles\_variables.scss" />
     <Content Include="Styles\site.scss" />
-    <Content Include="Views\AdditionalResources.cshtml" />
-    <Content Include="Views\Favicon.cshtml" />
+    <Content Include="Views\Metas.liquid" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
