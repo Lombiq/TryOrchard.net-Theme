@@ -1,19 +1,12 @@
 ﻿@charset "UTF-8";
 
-$theme-root: "/Themes/TryOrchard.Theme/" !default;
-
-$images-path: $theme-root + "Images/" !default;
-
-
-$fonts-path: $theme-root + "Fonts/" !default;
-
 $text-font-families-thin: MontserratThin, sans-serif !default;
 $text-font-families-light: MontserratLight, sans-serif !default;
 $text-font-families: MontserratLight, sans-serif !default;
 $text-font-families-bold: MontserratBold, sans-serif !default;
 
 $text-font-family-heading: $text-font-families-bold !default;
-$text-font-family-button-other-demo-sites: $text-font-families-thin !default;
+$text-font-family-button-other-demo-sites: $text-font-families-light !default;
 $text-font-family-button-freshest-demo-sites: $text-font-families-bold !default;
 
 $text-size-base-desktop: 13px !default;

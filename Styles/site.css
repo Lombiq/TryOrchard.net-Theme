@@ -197,11 +197,11 @@ html, body {
   overflow-x: hidden; }
 
 #layout-wrapper {
+  width: unset;
   margin-right: auto;
   margin-left: auto;
   padding-left: 0;
-  padding-right: 0;
-  width: unset; }
+  padding-right: 0; }
   @media (min-width: 1200px) {
     #layout-wrapper {
       width: 1200px; } }
@@ -219,12 +219,12 @@ html, body {
   .zone-header #branding a {
     height: 80px;
     width: 326px;
-    background-image: url(../Images/try-orchard-logo.png);
     display: inline-block;
-    background-repeat: no-repeat;
-    background-size: contain;
     color: transparent;
-    margin: 30px 0; }
+    margin: 30px 0;
+    background-image: url(../Images/try-orchard-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain; }
     @media (min-width: 1200px) {
       .zone-header #branding a {
         display: block; } }
@@ -246,7 +246,6 @@ html, body {
       text-align: left; } }
 
 #layout-footer {
-  padding: 0 7% 20px 7%;
   padding-top: 0;
   padding-right: 7%;
   padding-bottom: 20px;
@@ -287,7 +286,7 @@ a {
   .freshestDemoSites__link {
     padding: 50px 0; }
     .freshestDemoSites__link a {
-      padding: 12px 80px;
+      padding: 12px 160px;
       border-radius: 18px;
       background-color: white;
       letter-spacing: 2px;
@@ -327,7 +326,7 @@ a {
         text-align: center;
         text-decoration: none;
         font-size: 1.8em;
-        font-family: MontserratThin, sans-serif;
+        font-family: MontserratLight, sans-serif;
         color: #575756; }
         .otherDemoSitesList li a:hover, .otherDemoSitesList li a:focus {
           background-color: #94E5F7; }
