@@ -252,7 +252,10 @@ html, body {
   padding-left: 7%; }
   @media (min-width: 1200px) {
     #layout-footer {
-      padding: 0; } }
+      padding-top: 0;
+      padding-right: 0;
+      padding-bottom: 20px;
+      padding-left: 0; } }
 
 .user-display {
   display: none; }
@@ -261,7 +264,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: MontserratBold, sans-serif; }
 
 a {
-  color: #00A7D1; }
+  color: #00A7D1;
+  text-decoration: none; }
+  a:hover, a:focus {
+    text-decoration: underline; }
 
 .demoSites {
   text-align: center; }
