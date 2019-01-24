@@ -25,6 +25,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -66,17 +67,66 @@
       <HintPath>..\..\..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Web.WebPages">
+      <HintPath>..\..\..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>..\..\..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Helpers">
+      <HintPath>..\..\..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Razor">
+      <HintPath>..\..\..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment">
+      <HintPath>..\..\..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor">
+      <HintPath>..\..\..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\favicon.ico" />
+    <Content Include="Images\Favicons\android-chrome-144x144.png" />
+    <Content Include="Images\Favicons\android-chrome-192x192.png" />
+    <Content Include="Images\Favicons\android-chrome-256x256.png" />
+    <Content Include="Images\Favicons\android-chrome-36x36.png" />
+    <Content Include="Images\Favicons\android-chrome-384x384.png" />
+    <Content Include="Images\Favicons\android-chrome-48x48.png" />
+    <Content Include="Images\Favicons\android-chrome-512x512.png" />
+    <Content Include="Images\Favicons\android-chrome-72x72.png" />
+    <Content Include="Images\Favicons\android-chrome-96x96.png" />
+    <Content Include="Images\Favicons\apple-touch-icon-114x114.png" />
+    <Content Include="Images\Favicons\apple-touch-icon-120x120.png" />
+    <Content Include="Images\Favicons\apple-touch-icon-144x144.png" />
+    <Content Include="Images\Favicons\apple-touch-icon-152x152.png" />
+    <Content Include="Images\Favicons\apple-touch-icon-180x180.png" />
+    <Content Include="Images\Favicons\apple-touch-icon-57x57.png" />
+    <Content Include="Images\Favicons\apple-touch-icon-60x60.png" />
+    <Content Include="Images\Favicons\apple-touch-icon-72x72.png" />
+    <Content Include="Images\Favicons\apple-touch-icon-76x76.png" />
+    <Content Include="Images\Favicons\apple-touch-icon.png" />
+    <Content Include="Images\Favicons\favicon.ico" />
+    <Content Include="Images\Favicons\mstile-144x144.png" />
+    <Content Include="Images\Favicons\mstile-150x150.png" />
+    <Content Include="Images\Favicons\mstile-310x310.png" />
+    <Content Include="Images\Favicons\mstile-70x70.png" />
     <Content Include="Images\orchard-logo.png" />
+    <Content Include="Images\try-orchard-logo.png" />
+    <Content Include="Styles\fonts.css">
+      <DependentUpon>fonts.scss</DependentUpon>
+    </Content>
     <Content Include="Styles\site.css">
-      <DependentUpon>site.less</DependentUpon>
+      <DependentUpon>site.scss</DependentUpon>
     </Content>
     <Content Include="Web.config" />
-    <Content Include="Scripts\Web.config" />
     <Content Include="Styles\Web.config" />
-    <Content Include="Content\Web.config" />
     <Content Include="Theme.txt" />
     <Content Include="Theme.png" />
     <Content Include="Placement.info">
@@ -96,14 +146,20 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Styles\site.less" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
+    <Content Include="Images\Web.config" />
     <None Include="Licence.md" />
+    <Content Include="Styles\fonts.scss" />
+    <Content Include="Styles\_general.scss" />
+    <Content Include="Styles\_home-page.scss" />
+    <Content Include="Styles\_mixins.scss" />
+    <Content Include="Styles\_normalize.scss" />
+    <Content Include="Styles\_variables.scss" />
+    <Content Include="Styles\site.scss" />
+    <Content Include="Views\Metas.liquid" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
