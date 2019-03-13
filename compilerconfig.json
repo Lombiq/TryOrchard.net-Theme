@@ -1,6 +1,10 @@
 ﻿[
   {
     "outputFile": "Styles/site.css",
-    "inputFile": "Styles/site.less"
+    "inputFile": "Styles/site.scss"
+  },
+  {
+    "outputFile": "Styles/fonts.css",
+    "inputFile": "Styles/fonts.scss"
   }
 ]

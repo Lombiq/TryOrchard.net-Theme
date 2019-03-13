@@ -1,0 +1,31 @@
+﻿@charset "UTF-8";
+
+$text-font-families-thin: MontserratThin, sans-serif !default;
+$text-font-families-light: MontserratLight, sans-serif !default;
+$text-font-families: MontserratLight, sans-serif !default;
+$text-font-families-bold: MontserratBold, sans-serif !default;
+
+$text-font-family-heading: $text-font-families-bold !default;
+$text-font-family-button-other-demo-sites: $text-font-families-light !default;
+$text-font-family-button-freshest-demo-sites: $text-font-families-bold !default;
+
+$text-size-base-desktop: 13px !default;
+
+$text-margin-mobile-width: 7% !default;
+
+$text-size-heading-primary: 3.4em !default;
+$text-size-heading-secondary: 1.9em !default;
+
+$text-color-default: #575756 !default;
+$text-color-for-dark-bg: #FFFFFF !default;
+$text-color-link: #00A7D1 !default;
+
+$background-color-primary: #EDEDED !default;
+$background-color-secondary: #FFFFFF !default;
+$background-color-freshest-demo-sites: #00A7D1 !default;
+$background-color-page-title: #3C3C3B !default;
+$background-color-hover-button: #94E5F7 !default;
+
+$border-color-other-demo-sites: #00A7D1 !default;
+
+$desktop-width: 1200px !default;

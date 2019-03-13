@@ -1,0 +1,110 @@
+﻿@import "variables";
+@import "mixins";
+
+.demoSites {
+    text-align: center;
+}
+
+.freshestDemoSites {
+    @include full-width($background-color-freshest-demo-sites, $text-margin-mobile-width);
+    color: $text-color-for-dark-bg;
+
+    &__title {
+        margin-top: 40px;
+        font-size: 3.4em;
+    }
+
+    &__text {
+        font-size: 1.4em;
+
+        p {
+            line-height: 1.3em;
+            margin: 0;
+        }
+    }
+
+    &__link {
+        padding: 50px 0;
+
+        a {
+            padding: 12px 160px;
+            border-radius: 18px;
+            background-color: white;
+            letter-spacing: 2px;
+            font-family: $text-font-family-button-freshest-demo-sites;
+
+            text: {
+                transform: uppercase;
+                align: center;
+                decoration: none
+            }
+
+            &:hover, &:focus {
+                background-color: $background-color-hover-button;
+            }
+        }
+    }
+}
+
+.otherDemoSites {
+    @include full-width($background-color-secondary, $text-margin-mobile-width);
+
+    &__title {
+        font-size: 1.8em;
+    }
+
+    &__text {
+        font-size: 1.3em;
+    }
+
+    &List {
+        list-style: none;
+        padding: 45px 0;
+        margin: 0;
+
+        li {
+            display: inline-block;
+            list-style-image: none;
+            list-style-type: none;
+            margin: 0px 13px;
+
+            a {
+                padding: 6px 14px;
+                border-radius: 50%;
+                background-color: white;
+                border: 1px solid $border-color-other-demo-sites;
+
+                text: {
+                    align: center;
+                    decoration: none;
+                }
+
+                font: {
+                    size: 1.8em;
+                    family: sans-serif;
+                }
+
+                color: $text-color-default;
+
+                &:hover, &:focus {
+                    background-color: $background-color-hover-button;
+                }
+            }
+        }
+    }
+}
+
+.widget-introduction {
+    margin-top: 45px;
+    padding: 0 $text-margin-mobile-width;
+
+    @include desktop {
+        padding: 0;
+    }
+
+    h1 {
+        font: {
+            size: $text-size-heading-secondary;
+        }
+    }
+}
